@@ -1,0 +1,96 @@
+.stats {
+  font-size:46px;
+  color: gray;
+  font-family: 'openhpi';
+  line-height: 30px;
+}
+video {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    z-index: 1;
+}
+body{
+  background-color: black;
+  padding:0px;
+  margin:0px;
+  overflow: hidden;
+}
+h2{
+  color:white;
+}
+
+.course{
+  width:100%;
+  height:295px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.courseTitle{
+  color: #333333;
+  position: absolute;
+  bottom:0px;
+  padding:10px;
+  font-size: 30px;
+  line-height: 35px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.courseTitle .date{
+  font-size: 15px;
+  line-height: 20px;
+}
+.courseWrapper{
+  padding:10px;
+}
+#moochouselogo{
+  width:400px;
+  height:50px;
+  border: 0px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("images/logo_moochaus.png");
+}
+.header{
+  margin:10px;
+  border-bottom: 3px solid rgba(100,100,100,0.5);
+}
+.box{
+  padding-top:25px;
+  margin:0px;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  height: 110px;
+}
+.box .label{
+    font-size:20px;
+}
+.box.openhpi {
+  background-color: #de6212;
+}
+.box.opensap {
+  background-color: #F0AB00;
+}
+.box.moochouse {
+  background-color: #ABB324;
+}
+.numbers{
+  margin:10px;
+}
+.opensap{
+  font-family: 'opensap';
+}
+
+@font-face {
+  font-family: 'openhpi';
+  src: url('./fonts/NeoSansStdRegular.eot');
+  src: url('./fonts/NeoSansStdRegular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'opensap';
+  src: url('./fonts/BentonSansRegularWesternEurope.eot');
+  src: url('./fonts/BentonSansRegularWesternEurope.ttf') format('truetype'); }
