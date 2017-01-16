@@ -1,8 +1,17 @@
+.fixed_stats{
+  z-index: 10;
+  display:none;
+  position: fixed;
+  left:120px;
+  top:370px;
+  width:280px;
+}
 .stats {
+  position: relative;
   font-size:46px;
   color: gray;
   font-family: 'openhpi';
-  line-height: 30px;
+  line-height: 42px;
 }
 video {
     position: fixed;
@@ -13,13 +22,13 @@ video {
     z-index: 1;
 }
 body{
-  background-color: black;
+  background-color: "#f5a704";
   padding:0px;
   margin:0px;
   overflow: hidden;
 }
 h2{
-  color:white;
+  color: white;
 }
 
 .course{
@@ -84,7 +93,6 @@ h2{
 .opensap{
   font-family: 'opensap';
 }
-
 @font-face {
   font-family: 'openhpi';
   src: url('./fonts/NeoSansStdRegular.eot');
