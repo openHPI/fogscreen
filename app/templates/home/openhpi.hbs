@@ -1,0 +1,26 @@
+<div id="openhpi">
+  {{ivy-videojs  fluid="true" posterimage="/assets/images/background.jpg" timeupdate="playerprogress" autoplay="autoplay" ended="next" ready="playerready" src="/assets/images/Anim_v01.mp4"}}
+  <div class="fixed_stats">
+    <div class="row stats">
+      <div class="col-md-6" style="">
+        <div class="row sitestats">
+          <div class="col-md-12">
+            <div class="col-md-4" width="200">
+              <div class="">
+                <span class="number">{{count-upp endVal=model.openhpi_enrollments useGrouping=true}}</span><br />
+                <span class="label">Kurseinschreibungen</span>
+              </div>
+              <br />
+              {{#if model.openhpi_active_users}}
+              <div class="">
+                <span class="number">{{count-upp endVal=model.openhpi_active_users useGrouping=true}}</span><br />
+                <span class="label">Aktive Nutzer (jetzt)</span>
+              </div>
+              {{/if}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
