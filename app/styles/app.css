@@ -12,6 +12,12 @@ body{
   top:120px;
   width:280px;
 }
+.fixed_stats_move{
+  left:80px;
+  top:80px;
+  -webkit-transition: left 8s, top 8s, -webkit-transform 8s; /* Safari */
+  transition: left 8s, top 8s, transform 8s;
+}
 h2{
   font-size: 120px;
 }
