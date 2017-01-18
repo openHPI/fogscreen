@@ -1,3 +1,9 @@
+body{
+  background-color: black !important;
+  padding:0px;
+  margin:0px;
+  overflow: hidden;
+}
 .fixed_stats{
   z-index: 10;
   display:none;
@@ -35,12 +41,11 @@ video {
     height: 1080px;
     z-index: 1;
 }
-body{
-  background-color: "#f5a704";
-  padding:0px;
-  margin:0px;
-  overflow: hidden;
+
+html{
+  background-color: "black";
 }
+
 h2{
   color: white;
 }
